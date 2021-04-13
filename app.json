@@ -1,0 +1,81 @@
+{
+
+    "name": "Voice-Bot",
+
+    "description": "Make Voice Bot",
+
+    "keywords": [
+
+        "telegram",
+
+        "voice"
+
+    ],
+
+    "website": "https://github.com/MonkTeam/Voice",
+
+    "repository": "https://github.com/MonkTeam/Voice",
+
+    "stack": "heroku-18",
+
+    "env": {
+
+        "JIO_SAAVN_API": {
+
+            "description": "Jio Saavn API",
+
+            "value": "http://127.0.0.1:5000/result/?query="
+
+        },
+
+        "RADIO_LINK": {
+
+            "description": "Radio Link",
+
+            "value": "http://peridot.streamguys.com:7150/Mirchi"
+
+        },
+
+        "SUDO_CHAT_ID": {
+
+            "description": "Group ID",
+
+            "value": "-1001176749967"
+
+        },
+
+        "OWNER_ID": {
+
+            "description": "Telegram Owner ID",
+
+            "value": "1327934109"
+
+        }
+
+    },
+
+    "addons": [],
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        }
+
+    ],
+
+    "formation": {
+
+        "worker": {
+
+            "size": "free"
+
+        }
+
+    }
+
+}
+
+© 2021 
